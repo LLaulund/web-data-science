@@ -1,7 +1,7 @@
 
 var NYT_url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?";
 var NYT_topic = "q=orchid";
-var NYT_key = "&api-key=";
+var NYT_key = "";
 
 var nyt_request = NYT_url+NYT_topic+NYT_key;
 var counter = 0;
